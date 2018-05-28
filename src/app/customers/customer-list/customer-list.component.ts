@@ -14,7 +14,7 @@ export class CustomerListComponent implements OnInit {
   ngOnInit() {
     this.activatedRoute.params.subscribe((params: Params) => {
       this.userId = params['id'];
+      console.log("change detected");
     });
   }
-
 }

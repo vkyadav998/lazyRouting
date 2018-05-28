@@ -14,6 +14,5 @@ export class AppComponent {
   routToAnotherPage(){
     let num = Math.floor(Math.random()*6+1);
     this.Router.navigate(['/customers/'+num]);
-    console.log(num);
   }
 }
