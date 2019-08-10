@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: OrderListComponent
+  },
+  {
+    path: 'add-orders',
+    loadChildren: './add-order/add-order.module#AddOrderModule'
   }
 ];
 
